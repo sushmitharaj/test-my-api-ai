@@ -1,35 +1,35 @@
 {  
    "greet":[  
       {  
-         "speech":"Hi. Pleased to know. Hope you've a good time enjoying the app.",
-         "displayText":"Hi. Pleased to know."
+         "speech":"Hi there. Hope you've a good time enjoying the app!",
+         "displayText":"text..."
       }
    ],
    "course":{  
-      "speech":"Here's the list of courses you wanted : EED 123, ABC 345, TTT 789",
-      "displayText":"Here's the list of courses you wanted : EED 123, ABC 345, TTT 789"
+      "speech":"Here's the list of courses for you : EED 123, ABC 345, TTT 789",
+      "displayText":"text..."
    },
    "semester":{  
-      "speech":"Here's the list of Semesters you wanted : Fall, Spring, Summer",
-      "displayText":"Here's the list of Semesters you wanted : Fall, Spring, Summer"
+      "speech":"Here's the list of Semesters for you : Fall, Spring, Summer",
+      "displayText":"text..."
    },
    "users":{  
       "azhar":{  
-         "speech":"Azhar is mad.It's hard to explain abt him. I quit",
-         "displayText":"It's hard to explain abt him. I quit"
+         "speech":"Azhar is Senior Software developer for Mobile development",
+         "displayText":"text..."
       },
       "arathi":{  
-         "speech":"Arathi is mental and does not prefer any drink. Weired",
-         "displayText":"It's hard to explain abt him. I quit"
+         "speech":"Arathi is a Drupal Enigneer",
+         "displayText":"text..."
       },
       "mahesh":{  
-         "speech":"mahesh is ios developer who's breaking his head at the moment. ha ha",
-         "displayText":"It's hard to explain abt him. I quit"
+         "speech":"Mahesh is an iOS developer",
+         "displayText":"text..."
       }
    },
    "sorry":{  
-      "speech":"Sorry, I don't think you've asked the right thing!",
-      "displayText":"Sorry, I don't think you've asked the right thing!"
+      "speech":"Sorry, I don't think the service understood that!",
+      "displayText":"text..."
    },
    "source":"test-my-api-ai"
 }
