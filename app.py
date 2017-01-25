@@ -49,7 +49,11 @@ def processRequest(req):
             "displayText": "Fall, Spring, Summer",
             "source": "test-my-api-ai"
         }
-    return {}
+    return {
+        "speech": "Sorry, I don't think you've asked the right thing!",
+        "displayText": "Sorry, I don't think you've asked the right thing!",
+        "source": "test-my-api-ai"
+    }
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
