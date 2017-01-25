@@ -39,14 +39,14 @@ def processRequest(req):
         }
     if req.get("result").get("action") == "course.search":
         return {
-            "speech": "Here's the list of courses you wanted",
-            "displayText": "EED 123, ABC 345, TTT 789",
+            "speech": "Here's the list of courses you wanted : EED 123, ABC 345, TTT 789",
+            "displayText": "Here's the list of courses you wanted : EED 123, ABC 345, TTT 789",
             "source": "test-my-api-ai"
         }
     if req.get("result").get("action") == "semester.search":
         return {
-            "speech": "Here's the list of Semesters you wanted",
-            "displayText": "Fall, Spring, Summer",
+            "speech": "Here's the list of Semesters you wanted : Fall, Spring, Summer",
+            "displayText": "Here's the list of Semesters you wanted : Fall, Spring, Summer",
             "source": "test-my-api-ai"
         }
     return {
