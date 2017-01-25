@@ -31,10 +31,13 @@ def webhook():
 
 
 def processRequest(req):
+    with open('data.json') as data_file:
+        data = json.load(data_file)
+    
     if req.get("result").get("action") == "greet":
         return {
-            "speech": "Hi. Pleased to know. Hope you've a good time enjoying the app.",
-            "displayText": "Hi. Pleased to know.",
+            "speech": data["test"],
+            "displayText": data["test"],
             "source": "test-my-api-ai"
         }
     if req.get("result").get("action") == "course.search":
