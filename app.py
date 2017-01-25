@@ -35,11 +35,7 @@ def processRequest(req):
         data = json.load(data_file)
     
     if req.get("result").get("action") == "greet":
-        return {
-            "speech": data["test"],
-            "displayText": data["test"],
-            "source": "test-my-api-ai"
-        }
+        return data["greet"][0]
     if req.get("result").get("action") == "course.search":
         return {
             "speech": "Here's the list of courses you wanted : EED 123, ABC 345, TTT 789",
