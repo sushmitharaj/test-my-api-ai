@@ -32,11 +32,11 @@ def webhook():
 
 def processRequest(req):
     if req.get("result").get("action") == "greet":
-    return {
+        return {
             "speech": "Hi. Pleased to know. Hope you've a good time enjoying the app.",
             "displayText": "Hi. Pleased to know.",
             "source": "test-my-api-ai"
-    }
+        }
     if req.get("result").get("action") == "course.search":
         return {
             "speech": "Here's the list of courses you wanted",
