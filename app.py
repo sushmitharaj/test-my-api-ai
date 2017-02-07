@@ -46,7 +46,8 @@ def processRequest(req):
         if degree == "graduate":
             
             for major in data["grad"]:
-                return {"speech":json.dumps(major)};
+                return {"speech":json.dumps(major), "displayText":"Hyyyy"};
+                
                 lang = language.lower()
                 majr = major["major"].lower()
                 if lang in majr:
@@ -54,7 +55,8 @@ def processRequest(req):
         
         if degree == "undergraduate":
             for major in data["undergrad"]:
-                return {"speech":json.dumps(major)};
+                return {"speech":json.dumps(major), "displayText":"Hyyyy"};
+                
                 lang = language.lower()
                 majr = major["major"].lower()
                 if lang in majr:
