@@ -32,7 +32,7 @@
       "displayText":"text..."
    },
    "source":"test-my-api-ai",
-   "grad":[  
+   "graduate":[  
       {  
          "major":"Art History (MA)",
          "degree":"MA",
@@ -50,7 +50,7 @@
          "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTEDMA&college=GRHI&GraduateType=17&source=DS"
       }
    ],
-   "undergrad":[
+   "undergraduate":[
       {  
          "major":"Aeronautical Management Technology (Air Traffic Management)",
          "degree":"BS",
