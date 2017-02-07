@@ -1,4 +1,4 @@
-{  
+{
    "greet":[  
       {  
          "speech":"Hi there. Hope you've a good time enjoying the app! ",
@@ -31,5 +31,33 @@
       "speech":"Sorry, I don't think the service understood that!",
       "displayText":"text..."
    },
-   "source":"test-my-api-ai"
+   "source":"test-my-api-ai",
+   
+   
+   "grad":[
+   		{
+   			
+   		
+   		}
+   ],
+   "undergrad":[
+   		{
+   			"major": "Aeronautical Management Technology (Air Traffic Management)",
+   			"degree":"BS",
+   			"required courses":"Major Map",
+   			"location":"Polytechnic",
+   			"options":"Accelerated",
+   			"college": "[Ira A. Fulton Schools of Engineering|http://engineering.asu.edu/]",
+   			"request":"https://requestinfo.asu.edu/request-info?prog=UGES&plan=TSAMTABAS&name=Applied+Science+%28Aviation%29&contact=technology@asu.edu" 		
+   		},
+   		{
+   			"major": "Applied Science (Aviation)",
+   			"degree":"BAS",
+   			"required courses":"Major Map",
+   			"location":"Polytechnic",
+   			"options":"",
+   			"college": "[Ira A. Fulton Schools of Engineering|http://engineering.asu.edu/]",
+   			"request":"https://requestinfo.asu.edu/request-info?prog=UGES&plan=ESAMTATBS&name=Aeronautical+Management+Technology+%28Air+Traffic+Management%29&contact=technology@asu.edu" 		
+   		}
+   ]
 }

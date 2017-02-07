@@ -39,8 +39,22 @@ def processRequest(req):
         return data["greet"][0]
     '''
     
-    if req.get("result").get("action") == "_course_search":
-        return data["course"]
+    if req.get("result").get("action") == "_search_major":
+        degree = req.get("result").get("parameters").get("degree")
+        language = req.get("result").get("parameters").get("language")
+        
+        if degree == "graduate":
+            
+            for major in data["grad"]:
+                if language.lower() in major["major"].lower():
+                    return {"speech":json.dumps(major)};
+        
+        if degree == "undergraduate":
+            for major in data["undergrad"]:
+                if language.lower() in major["major"].lower():
+                    return {"speech":json.dumps(major)};
+        
+        return data["sorry"]
     
     '''
     if req.get("result").get("action") == "semester.search":
