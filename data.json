@@ -34,7 +34,20 @@
    "source":"test-my-api-ai",
    "grad":[  
       {  
-
+         "major":"Art History (MA)",
+         "degree":"MA",
+         "location":"Tempe",
+         "options":"",
+         "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
+         "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTHISMA&college=GRHI&GraduateType=17&source=DS"
+      },
+      {  
+         "major":"Art Education (MA)",
+         "degree":"MA",
+         "location":"Tempe",
+         "options":"",
+         "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
+         "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTEDMA&college=GRHI&GraduateType=17&source=DS"
       }
    ],
    "undergrad":[
