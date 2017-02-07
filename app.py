@@ -34,16 +34,17 @@ def processRequest(req):
     with open('data.json') as data_file:
         data = json.load(data_file)
     
+    '''
     if req.get("result").get("action") == "_welcome":
         return data["greet"][0]
-    if req.get("result").get("action") == "course.search":
+    '''
+    
+    if req.get("result").get("action") == "_course_search":
         return data["course"]
+    
+    '''
     if req.get("result").get("action") == "semester.search":
         return data["semester"]
-    
-    
-    
-    
     
     if req.get("result").get("action") == "employee.search":
         employee = req.get("result").get("parameters").get("employee")
@@ -54,7 +55,7 @@ def processRequest(req):
             return data["users"]["arathi"]
         if employee == "mahesh":
             return data["users"]["mahesh"]
-        
+    '''
         
         
     return data["sorry"]
