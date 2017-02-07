@@ -34,7 +34,7 @@ def processRequest(req):
     with open('data.json') as data_file:
         data = json.load(data_file)
     
-    if req.get("result").get("action") == "greet":
+    if req.get("result").get("action") == "_welcome":
         return data["greet"][0]
     if req.get("result").get("action") == "course.search":
         return data["course"]
