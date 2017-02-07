@@ -46,7 +46,7 @@ def processRequest(req):
         if degree == "graduate":
             
             for major in data["grad"]:
-                return major
+                return {"speech":json.dumps(major)};
                 lang = language.lower()
                 majr = major["major"].lower()
                 if lang in majr:
@@ -54,7 +54,7 @@ def processRequest(req):
         
         if degree == "undergraduate":
             for major in data["undergrad"]:
-                return major
+                return {"speech":json.dumps(major)};
                 lang = language.lower()
                 majr = major["major"].lower()
                 if lang in majr:
@@ -66,7 +66,7 @@ def processRequest(req):
     if req.get("result").get("action") == "semester.search":
         return data["semester"]
     
-    if req.get("result").get("action") == "employee.search":
+    if req.get("result").get("action") == "employee.search":    
         employee = req.get("result").get("parameters").get("employee")
         
         if employee == "azhar":
