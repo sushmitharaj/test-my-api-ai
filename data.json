@@ -36,6 +36,10 @@
       {  
          "major":"Art History (MA)",
          "degree":"MA",
+         "desc": {
+         	"detail":"The School of Arts, Media and Engineering offers a first of its kind BA in digital culture. The degree is for students who are interested in helping shape the future creative uses of digital technology in our day-to-day lives. Digital culture majors learn to go beyond merely using digital tools; they develop the ability to program media and integrate computational systems with everyday physical human experience. This dynamic curriculum not only prepares students with tangible skills in cultural media but also with the critical-thinking skills that enable the understanding of the broader impact of technologies on life and culture. Graduates interested in continuing their education are well prepared to apply for the top interdisciplinary new media programs in the nation",
+         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/HIDGCABA/undergrad/false"
+         },
          "location":"Tempe",
          "options":"",
          "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
@@ -44,6 +48,10 @@
       {  
          "major":"Art Education (MA)",
          "degree":"MA",
+         "desc": {
+         	"detail":"The program focuses on public and private K-12 instruction, art in higher education and educational programs in art museums. Students investigate issues in art teaching and learning from multiple perspectives",
+         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTEBFA/undergrad/false"
+         },
          "location":"Tempe",
          "options":"",
          "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
@@ -54,6 +62,10 @@
       {  
          "major":"Aeronautical Management Technology (Air Traffic Management)",
          "degree":"BS",
+         "desc": {
+         	"detail":"The BS program in aeronautical management technology with a concentration in air traffic management provides a technical foundation in the air traffic control procedures used by air traffic controllers in air traffic control towers and air traffic control radar facilities. Students gain a strong background in aircraft operations, management skills and business principles through course work specific to air traffic control and aviation. As a part of the degree program, students are required to take courses that will qualify them to earn their airline dispatcher certificate.",
+         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESAMTATBS/undergrad/false"
+         },
          "required courses":"Major Map",
          "location":"Polytechnic",
          "options":"Accelerated",
@@ -63,6 +75,10 @@
       {  
          "major":"Applied Science (Aviation)",
          "degree":"BAS",
+         "desc": {
+         	"detail":"This program allows students who have an applicable AAS from an accredited institution to transfer 60 credit hours toward a BAS at ASU. Students pursuing this degree may have more than 60 credit hours to complete in order to obtain their Bachelor of Applied Science upon transfer to ASU. Students transferring from a regionally accredited Arizona public community college can transfer up to 15 additional credit hours of transferable general studies courses (75 credit hours total). Students should work with their academic advisor to ensure their courses will meet degree requirements.",
+         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/TSAMTABAS/undergrad/false"
+         },
          "required courses":"Major Map",
          "location":"Polytechnic",
          "options":"",

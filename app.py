@@ -39,6 +39,17 @@ def processRequest(req):
         return data["greet"][0]
     '''
     
+    if req.get("result").get("action") == "_more_info":
+        ctxt  = req.get("result").get("contexts")[0]
+        if ctxt["name"] == "context_search_major":
+            degree = ctxt["parameters"]["degree"]
+            language = ctxt["parameters"]["language"]
+            
+            for major in data[degree]:
+                if language.lower() in major["major"].lower():
+                    return {"displayText": json.dumps(major["desc"]), "speech": major["desc"]["detail"]}
+            return data["sorry"]
+        
     if req.get("result").get("action") == "_search_major":
         degree = req.get("result").get("parameters").get("degree")
         language = req.get("result").get("parameters").get("language")
@@ -62,7 +73,6 @@ def processRequest(req):
         if employee == "mahesh":
             return data["users"]["mahesh"]
     '''
-        
         
     return data["sorry"]
 
