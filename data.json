@@ -37,13 +37,19 @@
          "major":"Art History (MA)",
          "degree":"MA",
          "desc": {
-         	"detail":"The School of Arts, Media and Engineering offers a first of its kind BA in digital culture. The degree is for students who are interested in helping shape the future creative uses of digital technology in our day-to-day lives. Digital culture majors learn to go beyond merely using digital tools; they develop the ability to program media and integrate computational systems with everyday physical human experience. This dynamic curriculum not only prepares students with tangible skills in cultural media but also with the critical-thinking skills that enable the understanding of the broader impact of technologies on life and culture. Graduates interested in continuing their education are well prepared to apply for the top interdisciplinary new media programs in the nation",
-         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/HIDGCABA/undergrad/false"
+         	"detail":"The MA in art with a concentration in art history is a comprehensive degree program designed to train students to engage with visuality in multiple ways. It offers a diverse curriculum intended to foster critical understanding of aesthetics, production, patronage and consumption of art. Eleven internationally recognized faculty members offer classes across many cultures, time periods and geographies, using multiple approaches and methodologies. The program stresses intersections between disciplines, borders, margins, points of mediation and technological developments throughout history. The graduate curriculum offers focused study in the areas of images and digital technologies, art in social and political contexts, and histories and theories of visual culture.",
+         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTHISMA/graduate/false"
          },
          "location":"Tempe",
          "options":"",
          "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
-         "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTHISMA&college=GRHI&GraduateType=17&source=DS"
+         "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTHISMA&college=GRHI&GraduateType=17&source=DS",
+      	 "requirement": {
+      	 	"admission": {
+      	 		"detail":"Please see the program website for application deadlines and admission terms. All applicants must submit an online graduate admission application. Applicants must have a bachelor's degree from a regionally accredited university with an undergraduate major or minor in art history, or at least four upper-division art history courses in which a GPA of 3.00 or higher was maintained. GRE scores must be submitted in support of the application, along with three letters of recommendation. Applicants should submit one formal research paper for review. Applicants should submit a one-page statement of intent indicating their objectives for graduate study. An applicant whose native language is not English (regardless of their current residency) must provide proof of English proficiency. Applicants must fulfill the requirements of both the Division of Graduate Education and the Herberger Institute for Design and the Arts.",
+      	 		"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTHISMA/graduate/false#admissionReq"
+      	 	}
+      	 }
       },
       {  
          "major":"Art Education (MA)",

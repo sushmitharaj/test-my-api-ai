@@ -38,7 +38,20 @@ def processRequest(req):
     if req.get("result").get("action") == "_welcome":
         return data["greet"][0]
     '''
-    
+        
+        
+        
+    if req.get("result").get("action") == "_admission_req":
+        ctxt  = req.get("result").get("contexts")[0]
+        if ctxt["name"] == "context_admission_requirement":
+            degree = ctxt["parameters"]["degree"]
+            language = ctxt["parameters"]["language"]
+            
+            for major in data[degree]:
+                if language.lower() in major["major"].lower():
+                    return {"displayText": json.dumps(major["requirement"]["admission"]), "speech": major["requirement"]["admission"]["detail"]}
+            return data["sorry"]
+        
     if req.get("result").get("action") == "_more_info":
         ctxt  = req.get("result").get("contexts")[0]
         if ctxt["name"] == "context_search_major":
