@@ -70,12 +70,16 @@ def processRequest(req):
                 obj = {
                     "major": info["major"],
                     "degree": info["degree"],
-                    "required courses": info["required courses"],
                     "location": info["location"],
                     "options": info["options"],
                     "college": info["college"],
                     "request":info["request"]
                 }
+                
+                test = json.dumps(info)
+                
+                if "required courses" in test:
+                    obj["required courses"] = info["required courses"]
                 
                 return {"displayText": json.dumps(obj), "speech": info["major"]}
         return data["sorry"]
