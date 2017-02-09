@@ -39,37 +39,45 @@ def processRequest(req):
         return data["greet"][0]
     '''
         
-        
-        
-    if req.get("result").get("action") == "_admission_req":
-        ctxt  = req.get("result").get("contexts")[0]
-        if ctxt["name"] == "context_admission_requirement":
-            degree = ctxt["parameters"]["degree"]
-            language = ctxt["parameters"]["language"]
-            
-            for major in data[degree]:
-                if language.lower() in major["major"].lower():
-                    return {"displayText": json.dumps(major["requirement"]["admission"]), "speech": major["requirement"]["admission"]["detail"]}
-            return data["sorry"]
-        
-    if req.get("result").get("action") == "_more_info":
-        ctxt  = req.get("result").get("contexts")[0]
-        if ctxt["name"] == "context_search_major":
-            degree = ctxt["parameters"]["degree"]
-            language = ctxt["parameters"]["language"]
-            
-            for major in data[degree]:
-                if language.lower() in major["major"].lower():
-                    return {"displayText": json.dumps(major["desc"]), "speech": major["desc"]["detail"]}
-            return data["sorry"]
+
+    for ctxt in req.get("result").get("contexts"):
+        if req.get("result").get("action") == "_admission_req":
+            if ctxt["name"] == "context_admission_requirement":
+                degree = ctxt["parameters"]["degree"]
+                language = ctxt["parameters"]["language"]
+                
+                for info in data[degree]:
+                    if language.lower() in info["major"].lower():
+                        return {"displayText": json.dumps(info["requirement"]["admission"]), "speech": info["requirement"]["admission"]["detail"]}
+                return data["sorry"]
+        if req.get("result").get("action") == "_more_info":
+            if ctxt["name"] == "context_search_major":
+                degree = ctxt["parameters"]["degree"]
+                language = ctxt["parameters"]["language"]
+                
+                for info in data[degree]:
+                    if language.lower() in info["major"].lower():
+                        return {"displayText": json.dumps(info["desc"]), "speech": info["desc"]["detail"]}
+                return data["sorry"]
         
     if req.get("result").get("action") == "_search_major":
         degree = req.get("result").get("parameters").get("degree")
         language = req.get("result").get("parameters").get("language")
         
-        for major in data[degree]:
-            if language.lower() in major["major"].lower():
-                return {"displayText": json.dumps(major), "speech": major["major"]}
+        for info in data[degree]:
+            if language.lower() in info["major"].lower():
+                
+                obj = {
+                    "major": info["major"],
+                    "degree": info["degree"],
+                    "required courses": info["required courses"],
+                    "location": info["location"],
+                    "options": info["options"],
+                    "college": info["college"],
+                    "request":info["request"]
+                }
+                
+                return {"displayText": json.dumps(obj), "speech": info["major"]}
         return data["sorry"]
     
     '''
