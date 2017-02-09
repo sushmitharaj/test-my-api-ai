@@ -61,7 +61,13 @@
          "location":"Tempe",
          "options":"",
          "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
-         "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTEDMA&college=GRHI&GraduateType=17&source=DS"
+         "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTEDMA&college=GRHI&GraduateType=17&source=DS",
+         "requirement": {
+      	 	"admission": {
+      	 		"detail":"All art students will be admitted to ASU into the Bachelor of Arts (art studies) program. They must complete a series of requirements including foundational course work and successfully passing a portfolio review to be eligible for study in one of the school's Bachelor of Fine Arts degree programs, which include upper-division course work in the studio. There is no portfolio review process at the time of admission to ASU for freshmen.",
+      	 		"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTEBFA/undergrad/false#admissionReq"
+      	 	}
+      	 }
       }
    ],
    "undergraduate":[

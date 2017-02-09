@@ -38,7 +38,6 @@ def processRequest(req):
     if req.get("result").get("action") == "_welcome":
         return data["greet"][0]
     '''
-        
 
     for ctxt in req.get("result").get("contexts"):
         if req.get("result").get("action") == "_admission_req":
