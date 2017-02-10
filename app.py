@@ -58,6 +58,15 @@ def processRequest(req):
                     if language.lower() in info["major"].lower():
                         return {"displayText": json.dumps(info["desc"]), "speech": info["desc"]["detail"]}
                 return data["sorry"]
+        if req.get("result").get("action") == "_contact_info":
+            if ctxt["name"] == "context_contact_info":
+                degree = ctxt["parameters"]["degree"]
+                language = ctxt["parameters"]["language"]
+                
+                for info in data[degree]:
+                    if language.lower() in info["major"].lower():
+                        return {"displayText": info["contact"], "speech": info["contact"]}
+                return data["sorry"]
         
     if req.get("result").get("action") == "_search_major":
         degree = req.get("result").get("parameters").get("degree")
