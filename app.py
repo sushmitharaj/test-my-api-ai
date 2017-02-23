@@ -92,6 +92,17 @@ def processRequest(req):
                 return {"displayText": json.dumps(obj), "speech": info["major"]}
         return data["sorry"]
     
+    if req.get("result").get("action") == "_job_placement":
+        return {"displayText": json.dumps(data["jobPlacement"]), "speech": data["jobPlacement"]}
+    if req.get("result").get("action") == "_scholarship":
+        return {"displayText": json.dumps(data["scholarship"]), "speech": data["scholarship"]}
+    if req.get("result").get("action") == "_cost_of_program":
+        return {"displayText": json.dumps(data["programCost"]), "speech": data["programCost"]}
+    if req.get("result").get("action") == "_companies":
+        return {"displayText": json.dumps(data["companies"]), "speech": data["companies"]}
+    if req.get("result").get("action") == "_executive_program":
+        return {"displayText": json.dumps(data["executiveProgram"]), "speech": data["executiveProgram"]}
+    
     '''
     if req.get("result").get("action") == "semester.search":
         return data["semester"]
