@@ -104,7 +104,8 @@ def processRequest(req):
         return {"displayText": json.dumps(data["companies"]), "speech": data["companies"]}
     if req.get("result").get("action") == "_executive_program":
         return {"displayText": json.dumps(data["executiveProgram"]), "speech": data["executiveProgram"]}
-    
+    if req.get("result").get("action") == "_campus_life":
+        return {"displayText": json.dumps(data["campusLife"]), "speech": data["campusLife"]}
     '''
     if req.get("result").get("action") == "semester.search":
         return data["semester"]
