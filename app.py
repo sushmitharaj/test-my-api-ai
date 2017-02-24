@@ -96,6 +96,8 @@ def processRequest(req):
         return {"displayText": json.dumps(data["jobPlacement"]), "speech": data["jobPlacement"]}
     if req.get("result").get("action") == "_scholarship":
         return {"displayText": json.dumps(data["scholarship"]), "speech": data["scholarship"]}
+    if req.get("result").get("action") == "_scholarship_filter":
+        return {"displayText": json.dumps(data["scholarshipFilter"]), "speech": data["scholarshipFilter"]}
     if req.get("result").get("action") == "_cost_of_program":
         return {"displayText": json.dumps(data["programCost"]), "speech": data["programCost"]}
     if req.get("result").get("action") == "_companies":
