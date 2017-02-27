@@ -10,15 +10,24 @@ import os
 from flask import Flask
 from flask import request
 from flask import make_response
+from flask_basicauth import BasicAuth
 
 # Flask app should start in global layout
 app = Flask(__name__)
 
+app.config['BASIC_AUTH_USERNAME'] = 'john'
+app.config['BASIC_AUTH_PASSWORD'] = 'secret'
+app.config['BASIC_AUTH_FORCE'] = True
+
+basic_auth = BasicAuth(app)
 
 @app.route('/webhook', methods=['POST'])
+@basic_auth.required
 def webhook():
     req = request.get_json(silent=True, force=True)
 
+    print (request.headers)
+    
     print("Request:")
     print(json.dumps(req, indent=4))
 
