@@ -36,48 +36,168 @@
       {  
          "major":"Art History (MA)",
          "degree":"MA",
-         "desc": {
-         	"detail":"The MA in art with a concentration in art history is a comprehensive degree program designed to train students to engage with visuality in multiple ways. It offers a diverse curriculum intended to foster critical understanding of aesthetics, production, patronage and consumption of art. Eleven internationally recognized faculty members offer classes across many cultures, time periods and geographies, using multiple approaches and methodologies. The program stresses intersections between disciplines, borders, margins, points of mediation and technological developments throughout history. The graduate curriculum offers focused study in the areas of images and digital technologies, art in social and political contexts, and histories and theories of visual culture.",
-         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTHISMA/graduate/false"
+         "desc":{  
+            "detail":"The MA in art with a concentration in art history is a comprehensive degree program designed to train students to engage with visuality in multiple ways. It offers a diverse curriculum intended to foster critical understanding of aesthetics, production, patronage and consumption of art. Eleven internationally recognized faculty members offer classes across many cultures, time periods and geographies, using multiple approaches and methodologies. The program stresses intersections between disciplines, borders, margins, points of mediation and technological developments throughout history. The graduate curriculum offers focused study in the areas of images and digital technologies, art in social and political contexts, and histories and theories of visual culture.",
+            "more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTHISMA/graduate/false"
          },
          "location":"Tempe",
          "options":"",
          "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
          "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTHISMA&college=GRHI&GraduateType=17&source=DS",
-      	 "requirement": {
-      	 	"admission": {
-      	 		"detail":"Please see the program website for application deadlines and admission terms. All applicants must submit an online graduate admission application. Applicants must have a bachelor's degree from a regionally accredited university with an undergraduate major or minor in art history, or at least four upper-division art history courses in which a GPA of 3.00 or higher was maintained. GRE scores must be submitted in support of the application, along with three letters of recommendation. Applicants should submit one formal research paper for review. Applicants should submit a one-page statement of intent indicating their objectives for graduate study. An applicant whose native language is not English (regardless of their current residency) must provide proof of English proficiency. Applicants must fulfill the requirements of both the Division of Graduate Education and the Herberger Institute for Design and the Arts.",
-      	 		"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTHISMA/graduate/false#admissionReq"
-      	 	}
-      	 },
-      	 "contact": "School of Art | ART 102 | soagrad@asu.edu | 480-965-8521"
+         "requirement":{  
+            "admission":{  
+               "detail":"Please see the program website for application deadlines and admission terms. All applicants must submit an online graduate admission application. Applicants must have a bachelor's degree from a regionally accredited university with an undergraduate major or minor in art history, or at least four upper-division art history courses in which a GPA of 3.00 or higher was maintained. GRE scores must be submitted in support of the application, along with three letters of recommendation. Applicants should submit one formal research paper for review. Applicants should submit a one-page statement of intent indicating their objectives for graduate study. An applicant whose native language is not English (regardless of their current residency) must provide proof of English proficiency. Applicants must fulfill the requirements of both the Division of Graduate Education and the Herberger Institute for Design and the Arts.",
+               "more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTHISMA/graduate/false#admissionReq"
+            }
+         },
+         "contact":"School of Art | ART 102 | soagrad@asu.edu | 480-965-8521"
+      },
+      {  
+         "major":"Biomedical Informatics",
+         "degree":"MS",
+         "desc":{  
+            "detail":"The Department of Biomedical Informatics is in the College of Health Solutions at Arizona State University. Professionals in the field use biomedical data, information and knowledge to improve human health. Students learn problem-solving, theory and methodologies underlying the field of biomedical informatics. Students will take courses in areas such as knowledge representation, clinical environments, imaging, bioinformatics and data science. Core courses provide a background in clinical informatics, while electives allow specialization in focus areas such as data science or mobile health.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Tempe",
+         "options":"Accelerated (H)",
+         "college":"College of Health Solutions"
+      },
+      {  
+         "major":"Chemical Engineering",
+         "degree":"PhD",
+         "desc":{  
+            "detail":"The chemical engineering PhD program has areas of research emphases in: * atmospheric aerosols * biomolecular engineering * biosensors * chemical therapies for neurodegenerative diseases * electrochemistry * electronic materials processing * engineering education * flexible display technology * fuel cells",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Tempe",
+         "options":"",
+         "college":"Ira A. Fulton Schools of Engineering "
+      },
+      {  
+         "major":"Construction Management",
+         "degree":"PhD",
+         "desc":{  
+            "detail":"The faculty in the Del E. Webb School of Construction offer a graduate program leading to the PhD degree in construction management. The purpose of the construction management doctoral program is to prepare research scholars, new faculty and professionals for positions in industry, universities and government, as well as facilitate a higher level of investigation and knowledge creation through the professor-doctoral student dynamic.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Tempe",
+         "options":"",
+         "college":"Ira A. Fulton Schools of Engineering "
+      },
+      {  
+         "major":"Advanced Nursing Practice - DNP",
+         "degree":"DNP",
+         "desc":{  
+            "detail":"The DNP degree program in advanced nursing practice, accredited by the Commission on Collegiate Nursing Education, is designed for master's degree-prepared, advanced practice nurses. Courses are designed for clinical experts and are innovative, interesting and organized to provide students with expert colleagues and mentors across the U.S. who can challenge them to take their practice to a new level. Graduates of this program will be able to facilitate the application and integration of research into clinical practice using innovative approaches to improve health care outcomes of populations and individuals across multiple settings.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Dowtown Phoenix",
+         "options":"",
+         "college":"College of Nursing and Health Innovation"
+      },
+      {  
+         "major":"Care Coordination (Graduate Certificate)",
+         "degree":"Certificate",
+         "desc":{  
+            "detail":"The graduate certificate program in care coordination provides registered nurses with advanced preparation to provide effective, patient-centered care coordination services that improve health outcomes, enhance health care quality and reduce health care costs. Graduates are specialists who are able to synthesize innovation principles and best available evidence to lead interprofessional teams to design, deliver and evaluate care coordination practices that are patient centered; improve health, safety and cost outcomes; and enhance quality and access to care across diverse populations. This program supports preparation for national certification as a case manager through the American Nurses Credentialing Center or through the Case Management Society of America",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Dowtown Phoenix, West",
+         "options":"",
+         "college":"College of Nursing and Health Innovation"
+      },
+      {  
+         "major":"Environmental and Resource Management (MS)",
+         "degree":"MS",
+         "desc":{  
+            "detail":"The MS program in environmental and resource management provides students with a background in the sciences, engineering, environmental science, natural resource management, environmental health and safety, or other affiliated areas with the regulatory and technical background to mitigate the environmental impact of industrial sources of pollution, ensure compliance with environmental regulations, and manage and preserve natural ecosystems. The curriculum focuses on areas such as environmental law, air pollution, soil and groundwater contamination, environmental toxicology, hazardous waste management, natural resources, worker health and safety, and international environmental laws and policies. Graduates are employed by manufacturing and mining industries, federal, state and local environmental agencies, environmental firms, international agencies such as the UN and World Bank, and NGOs.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Polytechnic",
+         "options":"Accelerated (H)",
+         "college":"Ira A. Fulton Schools of Engineering "
+      },
+      {  
+         "major":"Human Systems Engineering (MS)",
+         "degree":"MS",
+         "desc":{  
+            "detail":"The MS in Human Systems Engineering in the Ira A. Fulton Schools of Engineering provides students with opportunities for practical experience in diverse organizations and laboratories as well as internships in a variety of settings. The program is hands-on and challenging, and the field is growing quickly, creating opportunities for further study and employment. The areas of application include the following:",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Polytechnic",
+         "options":"Accelerated (H)",
+         "college":"Ira A. Fulton Schools of Engineering "
+      },
+      {  
+         "major":"Global Affairs (Graduate Certificate)",
+         "degree":"Certificate",
+         "desc":{  
+            "detail":"The graduate certificate in global affairs is designed to provide an in-depth study of the global political economy, global theory, global institutional environment, decision-making and global strategy.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Thunderbird",
+         "options":"",
+         "college":"Thunderbird School of Global Management "
+      },
+      {  
+         "major":"American Indian Studies (Tribal Leadership and Governance)",
+         "degree":"MS",
+         "desc":{  
+            "detail":"The MS in American Indian studies is a transdisciplinary program that provides students with an intellectual and practical understanding of the issues facing American Indian populations and the ability to apply that knowledge. Students acquire problem-solving skills useful in a range of professional arenas, including governmental, private and nonprofit agencies. Focus is on languages, cultures, arts, histories, legal policy and education from an American Indian studies perspective. Delivery is through in-person and iCourses. Students may select a thesis (research) or nonthesis (professional) option. Thesis students will be involved in a major research project under the direction of their faculty advisors, culminating in a thesis. This is the option students should select if they have an interest in a research-oriented position within an organization or agency or wish to pursue a doctorate degree. Nonthesis students will complete a research project that identifies and addresses an applied problem or issue relevant to a partner agency or organization under the direction of their faculty advisors. This is the option students should select if they are interested in a leadership or managerial position within an organization or agency.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Tempe",
+         "options":"Concurrent Accelerated",
+         "college":"College of Liberal Arts and Sciences"
+      },
+      {  
+         "major":"Microbiology",
+         "degree":"MS",
+         "desc":{  
+            "detail":"The MS in microbiology is designed to prepare students for careers in teaching and research on various aspects of microbiology. Teaching or research may be performed in: * educational institutions * government agencies * industry",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Tempe",
+         "options":"",
+         "college":"College of Liberal Arts and Sciences "
       },
       {  
          "major":"Art Education (MA)",
          "degree":"MA",
-         "desc": {
-         	"detail":"The program focuses on public and private K-12 instruction, art in higher education and educational programs in art museums. Students investigate issues in art teaching and learning from multiple perspectives",
-         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTEBFA/undergrad/false"
+         "desc":{  
+            "detail":"The program focuses on public and private K-12 instruction, art in higher education and educational programs in art museums. Students investigate issues in art teaching and learning from multiple perspectives",
+            "more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTEBFA/undergrad/false"
          },
          "location":"Tempe",
          "options":"",
          "college":"[Herberger Institute for Design and the Arts |http://herbergerinstitute.asu.edu/]",
          "request":"http://requestinfo.asu.edu/prospect_form?plan=FAARTEDMA&college=GRHI&GraduateType=17&source=DS",
-         "requirement": {
-      	 	"admission": {
-      	 		"detail":"All art students will be admitted to ASU into the Bachelor of Arts (art studies) program. They must complete a series of requirements including foundational course work and successfully passing a portfolio review to be eligible for study in one of the school's Bachelor of Fine Arts degree programs, which include upper-division course work in the studio. There is no portfolio review process at the time of admission to ASU for freshmen.",
-      	 		"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTEBFA/undergrad/false#admissionReq"
-      	 	}
-      	 }
+         "requirement":{  
+            "admission":{  
+               "detail":"All art students will be admitted to ASU into the Bachelor of Arts (art studies) program. They must complete a series of requirements including foundational course work and successfully passing a portfolio review to be eligible for study in one of the school's Bachelor of Fine Arts degree programs, which include upper-division course work in the studio. There is no portfolio review process at the time of admission to ASU for freshmen.",
+               "more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/FAARTEBFA/undergrad/false#admissionReq"
+            }
+         }
       }
    ],
-   "undergraduate":[
+   "undergraduate":[  
       {  
          "major":"Aeronautical Management Technology (Air Traffic Management)",
          "degree":"BS",
-         "desc": {
-         	"detail":"The BS program in aeronautical management technology with a concentration in air traffic management provides a technical foundation in the air traffic control procedures used by air traffic controllers in air traffic control towers and air traffic control radar facilities. Students gain a strong background in aircraft operations, management skills and business principles through course work specific to air traffic control and aviation. As a part of the degree program, students are required to take courses that will qualify them to earn their airline dispatcher certificate.",
-         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESAMTATBS/undergrad/false"
+         "desc":{  
+            "detail":"The BS program in aeronautical management technology with a concentration in air traffic management provides a technical foundation in the air traffic control procedures used by air traffic controllers in air traffic control towers and air traffic control radar facilities. Students gain a strong background in aircraft operations, management skills and business principles through course work specific to air traffic control and aviation. As a part of the degree program, students are required to take courses that will qualify them to earn their airline dispatcher certificate.",
+            "more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ESAMTATBS/undergrad/false"
          },
          "required courses":"Major Map",
          "location":"Polytechnic",
@@ -86,17 +206,139 @@
          "request":"https://requestinfo.asu.edu/request-info?prog=UGES&plan=TSAMTABAS&name=Applied+Science+%28Aviation%29&contact=technology@asu.edu"
       },
       {  
+         "major":"Digital Culture (Music)",
+         "degree":"BA",
+         "desc":{  
+            "detail":"The School of Arts, Media and Engineering offers a first of its kind BA in digital culture. The degree is for students who are interested in helping shape the future creative uses of digital technology in our day-to-day lives. Digital culture majors learn to go beyond merely using digital tools; they develop the ability to program media and integrate computational systems with everyday physical human experience. This dynamic curriculum not only prepares students with tangible skills in cultural media but also with the critical-thinking skills needed that enable the understanding of the broader impact of technologies on life and culture.",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Tempe",
+         "options":"",
+         "college":"Herberger Institute for Design and the Arts"
+      },
+      {  
+         "major":"2.5 Year Fast Track: Criminology and Criminal Justice",
+         "degree":"BS",
+         "desc":{  
+            "detail":"The criminology and criminal justice program is for students who want to understand the causes of crime, the role of criminal justice agencies in the control of crime, and the consequences of crime. They will learn sociological, psychological, biological and economic explanations for individual crime as well as differences in crime across neighborhoods, states, countries and over time. They will learn about the history, legal issues and current practices of crime control via police agencies, the court system, prisons, probation and parole.",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Downtown Phoenix, Havasu, West, Yuma",
+         "options":"Online, Fast Track, Accelerated",
+         "college":"College of Public Service and Community Solutions "
+      },
+      {  
+         "major":"Education Exploratory",
+         "degree":"",
+         "desc":{  
+            "detail":"The most effective educators stretch. They keep going. They're relentless. They suspect that there's always a better way---and they find it. They embrace responsibility for the world's most important job. Graduates of ASU's Mary Lou Fulton Teachers College receive best-in-class preparation that will enable them to thrive in their careers and play a vital role in improving the educational experience and outcomes of children.",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Polytechnic, West, Tempe",
+         "options":"",
+         "college":"Mary Lou Fulton Teachers College "
+      },
+      {  
+         "major":"Construction Engineering",
+         "degree":"BSE",
+         "desc":{  
+            "detail":"The BSE program in construction engineering focuses on a combination of design and management topics, preparing the student for a career in the engineering and construction industry. The program prepares students who wish to gain a professional engineering license while working at the interface of design and construction; it is attractive for students interested in a career that emphasizes construction of infrastructure. The degree makeup includes engineering design and construction management courses with a focus on sustainability and building information modeling topics. Construction management content includes:",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Tempe",
+         "options":"Accelerated",
+         "college":"Herberger Institute for Design and the Arts"
+      },
+      {  
+         "major":"Art Art History)",
+         "degree":"BFA",
+         "desc":{  
+            "detail":"The BFA in art with a concentration in art education involves: * art learning strategies and processes * facilitation of the teaching of art * policymaking in art * the study of art The program focuses on public and private K-12 instruction, art in higher education and educational programs in art museums. Students investigate issues in art teaching and learning from multiple perspectives, including:",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Tempe",
+         "options":"",
+         "college":"Herberger Institute for Design and the Arts"
+      },
+      {  
+         "major":"Theatre (Acting)",
+         "degree":"BA",
+         "desc":{  
+            "detail":"The BA program in theatre with a concentration in acting provides students with a rigorous academic and hands-on theatre education that emphasizes performance. Within the context of a comprehensive, liberal arts education, the program prepares students for both advanced graduate study in the field and entry-level careers in acting and performance. The program offers specialty course work in the following areas:",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Tempe",
+         "options":"",
+         "college":"Herberger Institute for Design and the Arts"
+      },
+      {  
+         "major":"Applied Science",
+         "degree":"BAS",
+         "desc":{  
+            "detail":"The School of Humanities, Arts, and Cultural Studies offers a BAS degree in the New College of Interdisciplinary Arts and Sciences at ASU's West campus. This program for students who have already earned an AAS degree allows students to apply the technical knowledge gained from their associate degree and significantly broaden their education. The program offers several unique areas of concentration tailored to students' individual interests and career goals. These include business, communication, criminal justice, teaching, environmental issues, languages and cultures, and social sciences.",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"West",
+         "options":"Accelerated (H)",
+         "college":"New College of Interdisciplinary Arts and Sciences"
+      },
+      {  
+         "major":"Criminology and Criminal Justice",
+         "degree":"BS",
+         "desc":{  
+            "detail":"The criminology and criminal justice program is for students who want to understand the causes of crime, the role of criminal justice agencies in the control of crime, and the consequences of crime. They will learn sociological, psychological, biological and economic explanations for individual crime as well as differences in crime across neighborhoods, states, countries and over time. They will learn about the history, legal issues and current practices of crime control via police agencies, the court system, prisons, probation and parole.",
+            "more":""
+         },
+         "required courses":"Link to major map - list of courses",
+         "location":"Downtown Phoenix, Havasu, West, Yuma",
+         "options":"Online, Fast Track, Accelerated (H)",
+         "college":"College of Public Service and Community Solutions "
+      },
+      {  
          "major":"Applied Science (Aviation)",
          "degree":"BAS",
-         "desc": {
-         	"detail":"This program allows students who have an applicable AAS from an accredited institution to transfer 60 credit hours toward a BAS at ASU. Students pursuing this degree may have more than 60 credit hours to complete in order to obtain their Bachelor of Applied Science upon transfer to ASU. Students transferring from a regionally accredited Arizona public community college can transfer up to 15 additional credit hours of transferable general studies courses (75 credit hours total). Students should work with their academic advisor to ensure their courses will meet degree requirements.",
-         	"more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/TSAMTABAS/undergrad/false"
+         "desc":{  
+            "detail":"This program allows students who have an applicable AAS from an accredited institution to transfer 60 credit hours toward a BAS at ASU. Students pursuing this degree may have more than 60 credit hours to complete in order to obtain their Bachelor of Applied Science upon transfer to ASU. Students transferring from a regionally accredited Arizona public community college can transfer up to 15 additional credit hours of transferable general studies courses (75 credit hours total). Students should work with their academic advisor to ensure their courses will meet degree requirements.",
+            "more":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/TSAMTABAS/undergrad/false"
          },
          "required courses":"Major Map",
          "location":"Polytechnic",
          "options":"",
          "college":"[Ira A. Fulton Schools of Engineering|http://engineering.asu.edu/]",
          "request":"https://requestinfo.asu.edu/request-info?prog=UGES&plan=ESAMTATBS&name=Aeronautical+Management+Technology+%28Air+Traffic+Management%29&contact=technology@asu.edu"
+      }
+   ],
+   "undergraduate_minors_cert":[  
+      {  
+         "major":"Child Nutrition",
+         "degree":"Certificate",
+         "desc":{  
+            "detail":"This certificate program is directed toward current degree-seeking students, postbaccalaureate students and nondegree-seeking students who are interested in eligibility for the school nutrition specialist credential offered by the School Nutrition Association. More information for this credential is available at: https://schoolnutrition.org/SNS/.",
+            "more":""
+         },
+         "required courses":"",
+         "location":"Downtown Phoenix",
+         "options":"",
+         "college":"College of Health Solutions"
+      },
+      {  
+         "major":"Anthropology",
+         "degree":"Minor",
+         "desc":{  
+            "detail":"The minor in anthropology provides students with a great deal of flexibility in selecting courses. The program has been designed to allow students to focus on areas within the discipline that articulate well with their major. All students interested in the anthropology minor are encouraged to discuss the options available with a School of Human Evolution and Social Change undergraduate advisor.",
+            "more":""
+         },
+         "required courses":"List of courses as listed on the page",
+         "location":"Tempe",
+         "options":"Online",
+         "college":"College of Liberal Arts and Sciences"
       }
    ],
    "jobPlacement":"We have the following Career and Professional Development Services you can look at Career Planning Checklist Career and Professional Development Services Events Calendar Evaluating Job Offers Part-Time and Work Study Job Tips Career Services Webinars Sun Devil CareerLink Sun Devil CareerLink Quick Reference Guide Additional Career and Professional Development Services Resources",
